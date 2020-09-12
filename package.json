@@ -1,8 +1,8 @@
 {
-  "name": "default-dark-ui",
-  "version": "2.0.0",
+  "name": "horizon-dark-ui",
+  "version": "1.0.0",
   "theme": "ui",
-  "description": "Default Dark UI Theme for Inkdrop",
+  "description": "Preview theme for the Inkdrop note-taking app. Based on Horizon for Visual Studio Code.",
   "styleSheets": [
     "theme.min.css"
   ],
@@ -14,7 +14,7 @@
     "inkdrop",
     "markdown"
   ],
-  "author": "Takuya Matsuyama<t@inkdrop.app>",
+  "author": "cdevoogd",
   "license": "MIT",
   "devDependencies": {
     "semantic-ui": "^2.4.2"

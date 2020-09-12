@@ -1,22 +1,21 @@
-# Default Dark UI Theme for Inkdrop
+# Horizon UI Theme
 
-Inkdrop's UI elements are styled based on [Semantic UI](http://semantic-ui.com/).
-It's mostly common in customizing the theme with it, so [their documentation](http://learnsemantic.com/) is very helpful to get started.
+This Horizon UI theme is a port of the original Horizon theme by [Jolaleye](https://github.com/jolaleye) for the [Inkdrop note-taking app](https://www.inkdrop.app/). This particular module modifies the theme for the app's user interface. For other modules of the theme, check the list below.
 
-Read [the documentation](http://doc.inkdrop.info/manual/creating-a-theme) for detailed instructions.
+## All Horizon Modules
+- [Horizon: UI Theme](https://github.com/cdevoogd/inkdrop-horizon-ui-theme)
+- [Horizon: Syntax Theme](https://github.com/cdevoogd/inkdrop-horizon-syntax-theme)
+- [Horizon: Preview Theme](https://github.com/cdevoogd/inkdrop-horizon-preview-theme)
 
-## How to build
+## Installation
 
-```
-npm install
-gulp build
-```
+This section will be filled out once the theme is completed.
 
-## Which files to edit
+## Credits
 
- * `src/site/globals/site.variables`
-   - Variables for Inkdrop-specific components
- * `src/site/globals/site.overrides`
-   - Declarations of CSS variables
- * `src/themes/default/globals/site.variables`
-   - Common variables
+- [Inkdrop](https://www.inkdrop.app/) for the Inkdrop app.
+- [Jolaleye](https://github.com/jolaleye) for the original [Horizon theme](https://horizontheme.netlify.app/).
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
