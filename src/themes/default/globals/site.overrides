@@ -1,37 +1,7 @@
 /*******************************
         Global Overrides
 *******************************/
-// All changes will (hopefully) be made here through overrides. This way, anything
-// that I change will all be visible and one place and easier to maintain in the future.
 
-// Horizon Colors
-// https://horizontheme.netlify.app/ & https://github.com/jolaleye/horizon-theme-vscode
-@horizonShadow: #16161C;
-@horizonBorder: #1A1C23;
-@horizonBackground: #1C1E26;
-@horizonBackgroundAlt: #232530;
-@horizonAccent: #2E303E;
-@horizonAccentAlt: #6C6F93;
-@horizonSecondaryAccent: #E9436F;
-@horizonSecondaryAccentAlt: #E95379;
-@horizonTertiaryAccent: #FAB28E;
-@horizonPositive: #09F7A0;
-@horizonNegative: #F43E5C;
-@horizonWarning: #27D797;
-@horizonModified: #21BFC2;
-@horizonText: #D5D8DA;
-@horizonMutedText: fade(@horizonText, 65%);
-@horizonLightText: fade(@horizonText, 50%);
-
-/*---------------------------------------
-  themes/default/globals/site.variables
-----------------------------------------*/
-@pageBackground: @horizonBackground;
-@inputBackground: @horizonAccent;
-
-/*---------------------------------------
-        site/globals/site.variables
-----------------------------------------*/
 @primaryColor: @horizonAccent;
 @primaryColorFocus: @horizonAccent;
 
@@ -50,3 +20,10 @@
 @noteListViewItemSeparatorBorder: 0;
 @noteListViewItemFocusInnerShaddow: 0;
 @noteSearchBarBorderBottom: 0;
+
+@headerNoteMenuActionItemSeparatorBorder: 1px solid @horizonBorder;
+// Changing the note title and tags in the note header to be transparent rather than use the input background.
+.editor-header-title-input > input,
+.note-tags-bar-input > .ui.input > input {
+    background: transparent !important;
+}

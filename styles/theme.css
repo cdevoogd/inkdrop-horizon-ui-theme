@@ -561,7 +561,7 @@ body {
   padding: 0px;
   overflow-x: hidden;
   min-width: 320px;
-  background: #2E3235;
+  background: #1C1E26;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
   font-size: 14px;
   line-height: 1.4285em;
@@ -691,13 +691,10 @@ input::selection {
         Global Overrides
 *******************************/
 
-/*---------------------------------------
-  themes/default/globals/site.variables
-----------------------------------------*/
-
-/*---------------------------------------
-        site/globals/site.variables
-----------------------------------------*/
+.editor-header-title-input > input,
+.note-tags-bar-input > .ui.input > input {
+  background: transparent !important;
+}
 
 /*******************************
          Site Overrides
@@ -1024,8 +1021,8 @@ input::selection {
        Neutral Text
    --------------------*/
   --dark-text-color: rgba(255, 255, 255, 0.95);
-  --muted-text-color: rgba(255, 255, 255, 0.6);
-  --light-text-color: rgba(255, 255, 255, 0.5);
+  --muted-text-color: rgba(213, 216, 218, 0.65);
+  --light-text-color: rgba(213, 216, 218, 0.5);
   --unselected-text-color: rgba(255, 255, 255, 0.4);
   --hovered-text-color: rgba(255, 255, 255, 0.8);
   --pressed-text-color: rgba(255, 255, 255, 0.9);
@@ -1489,13 +1486,13 @@ input::selection {
   --------------------*/
   --sidebar-background: #1C1E26;
   --sidebar-menu-item-active-background: #2E303E;
-  --sidebar-menu-section-color: rgba(255, 255, 255, 0.5);
+  --sidebar-menu-section-color: rgba(213, 216, 218, 0.5);
   --sidebar-menu-item-color: #DDDDDD;
-  --sidebar-menu-action-color: rgba(255, 255, 255, 0.5);
+  --sidebar-menu-action-color: rgba(213, 216, 218, 0.5);
   --sidebar-menu-action-hover-color: #2E303E;
   --sidebar-sync-status-view-background: #232530;
   --sidebar-sync-status-view-text-color: #DDDDDD;
-  --sidebar-sync-status-view-detail-color: rgba(255, 255, 255, 0.5);
+  --sidebar-sync-status-view-detail-color: rgba(213, 216, 218, 0.5);
   --sidebar-scrollbar-width: 6px;
   --sidebar-scrollbar-track-background: #1C1E26;
   --sidebar-scrollbar-thumb-background: #6C6F93;
@@ -1512,7 +1509,7 @@ input::selection {
   --note-list-bar-pinned-section-header-background: #1C1E26;
   --note-list-bar-pinned-section-header-border-bottom: 1px solid #1A1C23;
   --note-list-bar-pinned-section-footer-border-bottom: 4px solid #1A1C23;
-  --note-list-view-item-color: rgba(255, 255, 255, 0.6);
+  --note-list-view-item-color: rgba(213, 216, 218, 0.65);
   --note-list-view-item-separator-border: 0;
   --note-list-view-item-date-color: #2E303E;
   --note-list-view-item-tag-color: #2E303E;
@@ -1529,10 +1526,10 @@ input::selection {
         Header Note Menu
   --------------------*/
   --header-note-menu-background: transparent;
-  --header-note-menu-color: rgba(255, 255, 255, 0.5);
+  --header-note-menu-color: rgba(213, 216, 218, 0.5);
   --header-note-menu-action-item-active-background: rgba(49, 204, 236, 0.3);
   --header-note-menu-action-item-active-border: 1px solid rgba(49, 204, 236, 0.8);
-  --header-note-menu-action-item-separator-border: 1px solid #16181a;
+  --header-note-menu-action-item-separator-border: 1px solid #1A1C23;
   --header-note-menu-encrypt-button-color: #B58105;
   --header-note-menu-encrypt-button-background: #FFF8DB;
   /*-------------------
@@ -2590,7 +2587,7 @@ input::selection {
   width: 1.78571429em;
   height: 1.78571429em;
   line-height: 1.78571429em;
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(213, 216, 218, 0.5);
   font-style: normal;
   font-weight: 600;
   box-shadow: 0px 0px 0px 1px transparent inset;
@@ -7363,7 +7360,7 @@ i.flag.zimbabwe:before {
   margin: 0em;
   font-size: 1rem;
   line-height: 1.2em;
-  color: rgba(255, 255, 255, 0.6);
+  color: rgba(213, 216, 218, 0.65);
 }
 
 /*--------------
@@ -14618,7 +14615,7 @@ img.ui.bordered.image {
   line-height: 1.21428571em;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
   padding: 0.67857143em 1em;
-  background: #2E3235;
+  background: #2E303E;
   border: 1px solid rgba(24, 26, 28, 0.45);
   color: #DDDDDD;
   border-radius: 0.28571429rem;
@@ -14714,7 +14711,7 @@ img.ui.bordered.image {
 .ui.input.focus > input,
 .ui.input > input:focus {
   border-color: #85B7D9;
-  background: #2E3235;
+  background: #2E303E;
   color: rgba(255, 255, 255, 0.8);
   box-shadow: none;
 }
@@ -16751,7 +16748,7 @@ ol.ui.list ol li,
 
 .ui.list .list > a.item i.icon,
 .ui.list > a.item i.icon {
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(213, 216, 218, 0.5);
 }
 
 /* Header Link */
@@ -19449,7 +19446,7 @@ ol.ui.horizontal.list li:before,
 
 .ui.secondary.segment {
   background: #4B5257;
-  color: rgba(255, 255, 255, 0.6);
+  color: rgba(213, 216, 218, 0.65);
 }
 
 .ui.secondary.inverted.segment {
@@ -19461,7 +19458,7 @@ ol.ui.horizontal.list li:before,
 
 .ui.tertiary.segment {
   background: #666E74;
-  color: rgba(255, 255, 255, 0.6);
+  color: rgba(213, 216, 218, 0.65);
 }
 
 .ui.tertiary.inverted.segment {
@@ -20239,7 +20236,7 @@ ol.ui.horizontal.list li:before,
   opacity: 0.7;
   margin: 0em 0.21428571rem 0em;
   font-size: 0.92857143em;
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(213, 216, 218, 0.5);
   vertical-align: baseline;
 }
 
@@ -20441,7 +20438,7 @@ ol.ui.horizontal.list li:before,
   line-height: 1.21428571em;
   padding: 0.67857143em 1em;
   font-size: 1em;
-  background: #2E3235;
+  background: #2E303E;
   border: 1px solid rgba(24, 26, 28, 0.45);
   color: #DDDDDD;
   border-radius: 0.28571429rem;
@@ -20456,7 +20453,7 @@ ol.ui.horizontal.list li:before,
   -webkit-appearance: none;
   tap-highlight-color: rgba(255, 255, 255, 0);
   padding: 0.78571429em 1em;
-  background: #2E3235;
+  background: #2E303E;
   border: 1px solid rgba(24, 26, 28, 0.45);
   outline: none;
   color: #DDDDDD;
@@ -20717,7 +20714,7 @@ ol.ui.horizontal.list li:before,
   color: rgba(255, 255, 255, 0.95);
   border-color: #85B7D9;
   border-radius: 0.28571429rem;
-  background: #2E3235;
+  background: #2E303E;
   box-shadow: 0px 0em 0em 0em rgba(24, 26, 28, 0.35) inset;
 }
 
@@ -20725,7 +20722,7 @@ ol.ui.horizontal.list li:before,
   color: rgba(255, 255, 255, 0.95);
   border-color: #85B7D9;
   border-radius: 0.28571429rem;
-  background: #2E3235;
+  background: #2E303E;
   box-shadow: 0px 0em 0em 0em rgba(24, 26, 28, 0.35) inset;
   -webkit-appearance: none;
 }
@@ -21080,7 +21077,7 @@ ol.ui.horizontal.list li:before,
 .ui.inverted.form input[type="text"],
 .ui.inverted.form input[type="file"],
 .ui.inverted.form input[type="url"] {
-  background: #2E3235;
+  background: #2E303E;
   border-color: rgba(0, 0, 0, 0.1);
   color: #DDDDDD;
   box-shadow: none;
@@ -24757,7 +24754,7 @@ Floated Menu / Item
   margin: 0em 0em;
   padding: 0.35714286em 0.5em;
   font-weight: normal;
-  color: rgba(255, 255, 255, 0.6);
+  color: rgba(213, 216, 218, 0.65);
   transition: opacity 0.1s ease;
 }
 
@@ -28210,7 +28207,7 @@ Floated Menu / Item
 .ui.cards > .card .meta,
 .ui.card .meta {
   font-size: 1em;
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(213, 216, 218, 0.5);
 }
 
 .ui.cards > .card .meta *,
@@ -28262,7 +28259,7 @@ Floated Menu / Item
 
 .ui.cards > .card .meta > a:not(.ui),
 .ui.card .meta > a:not(.ui) {
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(213, 216, 218, 0.5);
 }
 
 .ui.cards > .card .meta > a:not(.ui):hover,
@@ -28357,7 +28354,7 @@ Floated Menu / Item
   padding: 0.75em 1em;
   top: 0em;
   left: 0em;
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(213, 216, 218, 0.5);
   box-shadow: none;
   transition: color 0.1s ease;
 }
@@ -29120,7 +29117,7 @@ a.ui.card:hover,
 .ui.comments .comment .metadata {
   display: inline-block;
   margin-left: 0.5em;
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(213, 216, 218, 0.5);
   font-size: 0.875em;
 }
 
@@ -29389,7 +29386,7 @@ a.ui.card:hover,
   font-weight: normal;
   font-size: 1em;
   font-style: normal;
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(213, 216, 218, 0.5);
 }
 
 /*--------------
@@ -29446,7 +29443,7 @@ a.ui.card:hover,
   font-style: normal;
   margin: 0em 0em 0em 0.5em;
   padding: 0em;
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(213, 216, 218, 0.5);
 }
 
 /*--------------
@@ -29823,7 +29820,7 @@ a.ui.card:hover,
 /* Meta */
 
 .ui.items > .item .meta > a:not(.ui) {
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(213, 216, 218, 0.5);
 }
 
 .ui.items > .item .meta > a:not(.ui):hover {
@@ -29885,7 +29882,7 @@ a.ui.card:hover,
   padding: 0em 0em 0em;
   top: 0em;
   left: 0em;
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(213, 216, 218, 0.5);
   box-shadow: none;
   transition: color 0.1s ease;
   border-top: none;
@@ -31982,7 +31979,7 @@ body.dimmable > .dimmer {
 .ui.dropdown .menu > .item > .description {
   float: right;
   margin: 0em 0em 0em 1em;
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(213, 216, 218, 0.5);
 }
 
 /*-----------------
@@ -32143,7 +32140,7 @@ body.dimmable > .dimmer {
   transform: rotateZ(0deg);
   min-width: 14em;
   min-height: 2.71428571em;
-  background: #2E3235;
+  background: #2E303E;
   display: inline-block;
   padding: 0.78571429em 2.1em 0.78571429em 1em;
   color: #DDDDDD;
@@ -34300,7 +34297,7 @@ a.ui.nag {
 .ui.inverted.nags .nag .title,
 .ui.inverted.nag .close,
 .ui.inverted.nag .title {
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(213, 216, 218, 0.5);
 }
 
 /*******************************
@@ -35962,7 +35959,7 @@ a.ui.nag {
   line-height: 1.21428571em;
   padding: 0.67857143em 1em;
   font-size: 1em;
-  background: #2E3235;
+  background: #2E303E;
   border: 1px solid rgba(24, 26, 28, 0.45);
   color: #DDDDDD;
   box-shadow: 0em 0em 0em 0em transparent inset;
@@ -36066,7 +36063,7 @@ a.ui.nag {
 .ui.search > .results .result .description {
   margin-top: 0;
   font-size: 0.92857143em;
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(213, 216, 218, 0.5);
 }
 
 .ui.search > .results .result .price {
@@ -36117,7 +36114,7 @@ a.ui.nag {
 
 .ui.search > .prompt:focus {
   border-color: rgba(24, 26, 28, 0.35);
-  background: #2E3235;
+  background: #2E303E;
   color: rgba(255, 255, 255, 0.95);
 }
 
@@ -36297,7 +36294,7 @@ a.ui.nag {
   font-size: 1em;
   padding: 0.4em 1em;
   font-weight: 600;
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(213, 216, 218, 0.5);
   border-bottom: 1px solid rgba(24, 26, 28, 0.1);
 }
 
@@ -36664,7 +36661,7 @@ body.pushable {
 }
 
 body.pushable > .pusher {
-  background: #2E3235;
+  background: #1C1E26;
 }
 
 /* Pusher should inherit background from context */

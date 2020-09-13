@@ -75,7 +75,7 @@
 ---------------*/
 
 /* This adjusts the default form input across all elements */
-@inputBackground        : @white;
+@inputBackground        : @horizonAccent;
 @inputVerticalPadding   : @relative11px;
 @inputHorizontalPadding : @relative14px;
 @inputPadding           : @inputVerticalPadding @inputHorizontalPadding;
@@ -121,7 +121,7 @@
         Page
 --------------------*/
 
-@pageBackground      : #2E3235;
+@pageBackground      : @horizonBackground;
 @pageOverflowX       : hidden;
 
 @lineHeight          : 1.4285em;
@@ -218,6 +218,24 @@
 /*-------------------
       Site Colors
 --------------------*/
+// Horizon Colors
+// https://horizontheme.netlify.app/ & https://github.com/jolaleye/horizon-theme-vscode
+@horizonShadow: #16161C;
+@horizonBorder: #1A1C23;
+@horizonBackground: #1C1E26;
+@horizonBackgroundAlt: #232530;
+@horizonAccent: #2E303E;
+@horizonAccentAlt: #6C6F93;
+@horizonSecondaryAccent: #E9436F;
+@horizonSecondaryAccentAlt: #E95379;
+@horizonTertiaryAccent: #FAB28E;
+@horizonPositive: #09F7A0;
+@horizonNegative: #F43E5C;
+@horizonWarning: #27D797;
+@horizonModified: #21BFC2;
+@horizonText: #D5D8DA;
+@horizonMutedText: fade(@horizonText, 65%);
+@horizonLightText: fade(@horizonText, 50%);
 
 /*---  Colors  ---*/
 @red              : #DB2828;
@@ -431,8 +449,8 @@
 --------------------*/
 
 @darkTextColor               : rgba(255, 255, 255, 0.95);
-@mutedTextColor              : rgba(255, 255, 255, 0.6);
-@lightTextColor              : rgba(255, 255, 255, 0.50);
+@mutedTextColor              : @horizonMutedText;
+@lightTextColor              : @horizonLightText;
 
 @unselectedTextColor         : rgba(255, 255, 255, 0.4);
 @hoveredTextColor            : rgba(255, 255, 255, 0.8);
