@@ -216,6 +216,27 @@
 @widescreenMonitorBreakpoint : 1920px;
 
 /*-------------------
+    Horizon Colors
+--------------------*/
+
+// https://horizontheme.netlify.app/ & https://github.com/jolaleye/horizon-theme-vscode
+@horizonShadow            : #16161C;
+@horizonBorder            : #1A1C23;
+@horizonBackground        : #1C1E26;
+@horizonBackgroundAlt     : #232530;
+@horizonAccent            : #2E303E;
+@horizonAccentAlt         : #6C6F93;
+@horizonSecondaryAccent   : #E9436F;
+@horizonSecondaryAccentAlt: #E95379;
+@horizonTertiaryAccent    : #FAB28E;
+@horizonPositive          : #09F7A0;
+@horizonNegative          : #F43E5C;
+@horizonWarning           : #27D797;
+@horizonModified          : #21BFC2;
+@horizonLightText         : #D5D8DA;
+@horizonDarkText          : #06060C;
+
+/*-------------------
       Site Colors
 --------------------*/
 
