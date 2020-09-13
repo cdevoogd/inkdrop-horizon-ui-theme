@@ -1490,7 +1490,7 @@ input::selection {
   --sidebar-menu-item-color: #DDDDDD;
   --sidebar-menu-action-color: rgba(213, 216, 218, 0.5);
   --sidebar-menu-action-hover-color: #2E303E;
-  --sidebar-sync-status-view-background: #232530;
+  --sidebar-sync-status-view-background: #1C1E26;
   --sidebar-sync-status-view-text-color: #DDDDDD;
   --sidebar-sync-status-view-detail-color: rgba(213, 216, 218, 0.5);
   --sidebar-scrollbar-width: 6px;

@@ -6,7 +6,7 @@
 @primaryColorFocus: @horizonAccent;
 
 @sidebarMenuItemActiveBackground: @horizonAccent;
-@sidebarSyncStatusViewBackground: @horizonBackgroundAlt;
+@sidebarSyncStatusViewBackground: @horizonBackground;
 @sidebarScrollbarTrackBackground: @horizonBackground;
 @sidebarScrollbarThumbBackground: @horizonAccentAlt;
 
