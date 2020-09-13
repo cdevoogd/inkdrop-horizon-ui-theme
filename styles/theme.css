@@ -757,7 +757,7 @@ input::selection {
      Form Input
    ---------------*/
   /* This adjusts the default form input across all elements */
-  --input-background: #2E3235;
+  --input-background: #2E303E;
   --input-vertical-padding: 0.78571429em;
   --input-horizontal-padding: 1em;
   --input-padding: 0.78571429em 1em;
@@ -1508,12 +1508,12 @@ input::selection {
   /*-------------------
         Note List Bar
   --------------------*/
-  --note-list-bar-background: #34393D;
-  --note-list-bar-pinned-section-header-background: rgba(255, 255, 255, 0.05);
-  --note-list-bar-pinned-section-header-border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-  --note-list-bar-pinned-section-footer-border-bottom: 4px solid rgba(255, 255, 255, 0.2);
+  --note-list-bar-background: #1C1E26;
+  --note-list-bar-pinned-section-header-background: #1C1E26;
+  --note-list-bar-pinned-section-header-border-bottom: 1px solid #1A1C23;
+  --note-list-bar-pinned-section-footer-border-bottom: 4px solid #1A1C23;
   --note-list-view-item-color: rgba(255, 255, 255, 0.6);
-  --note-list-view-item-separator-border: 1px solid #2E3235;
+  --note-list-view-item-separator-border: 0;
   --note-list-view-item-date-color: #2E303E;
   --note-list-view-item-tag-color: #2E303E;
   --note-list-view-item-active-background: #2E303E;
@@ -1521,10 +1521,10 @@ input::selection {
   --note-list-view-item-active-date-color: #DDDDDD;
   --note-list-view-item-active-tag-color: #DDDDDD;
   --note-list-view-item-focus-inner-shadow: inset 0 0 4px rgba(0, 0, 0, 0.8);
-  --note-search-bar-background: #34393D;
-  --note-search-bar-border-bottom: 1px solid #2E3235;
+  --note-search-bar-background: #1C1E26;
+  --note-search-bar-border-bottom: 0;
   --note-search-bar-input-border: none;
-  --note-search-bar-input-background: #2E3235;
+  --note-search-bar-input-background: #2E303E;
   /*-------------------
         Header Note Menu
   --------------------*/

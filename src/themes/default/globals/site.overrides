@@ -6,27 +6,28 @@
 
 // Horizon Colors
 // https://horizontheme.netlify.app/ & https://github.com/jolaleye/horizon-theme-vscode
-@horizonShadow            : #16161C;
-@horizonBorder            : #1A1C23;
-@horizonBackground        : #1C1E26;
-@horizonBackgroundAlt     : #232530;
-@horizonAccent            : #2E303E;
-@horizonAccentAlt         : #6C6F93;
-@horizonSecondaryAccent   : #E9436F;
+@horizonShadow: #16161C;
+@horizonBorder: #1A1C23;
+@horizonBackground: #1C1E26;
+@horizonBackgroundAlt: #232530;
+@horizonAccent: #2E303E;
+@horizonAccentAlt: #6C6F93;
+@horizonSecondaryAccent: #E9436F;
 @horizonSecondaryAccentAlt: #E95379;
-@horizonTertiaryAccent    : #FAB28E;
-@horizonPositive          : #09F7A0;
-@horizonNegative          : #F43E5C;
-@horizonWarning           : #27D797;
-@horizonModified          : #21BFC2;
-@horizonLightText         : #D5D8DA;
-@horizonDarkText          : #06060C;
+@horizonTertiaryAccent: #FAB28E;
+@horizonPositive: #09F7A0;
+@horizonNegative: #F43E5C;
+@horizonWarning: #27D797;
+@horizonModified: #21BFC2;
+@horizonText: #D5D8DA;
+@horizonMutedText: fade(@horizonText, 65%);
+@horizonLightText: fade(@horizonText, 50%);
 
 /*---------------------------------------
   themes/default/globals/site.variables
 ----------------------------------------*/
 @pageBackground: @horizonBackground;
-
+@inputBackground: @horizonAccent;
 
 /*---------------------------------------
         site/globals/site.variables
@@ -41,3 +42,11 @@
 
 @scrollbarTrackBackground: @sidebarScrollbarTrackBackground;
 @scrollbarThumbBackground: @sidebarScrollbarThumbBackground;
+
+@noteListBarBackground: @horizonBackground;
+@noteListBarPinnedSectionHeaderBackground: @horizonBackground;
+@noteListBarPinnedSectionHeaderBorderBottom: 1px solid @horizonBorder;
+@noteListBarPinnedSectionFooterBorderBottom: 4px solid @horizonBorder;
+@noteListViewItemSeparatorBorder: 0;
+@noteListViewItemFocusInnerShaddow: 0;
+@noteSearchBarBorderBottom: 0;
