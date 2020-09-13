@@ -18,6 +18,8 @@
 @noteListBarPinnedSectionHeaderBorderBottom: 1px solid @horizonBorder;
 @noteListBarPinnedSectionFooterBorderBottom: 4px solid @horizonBorder;
 @noteListViewItemSeparatorBorder: 0;
+@noteListViewItemDateColor: @horizonLightText;
+@noteListViewItemTagColor: @horizonLightText;
 @noteListViewItemFocusInnerShaddow: 0;
 @noteSearchBarBorderBottom: 0;
 

@@ -565,7 +565,7 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
   font-size: 14px;
   line-height: 1.4285em;
-  color: #DDDDDD;
+  color: #D5D8DA;
   font-smoothing: antialiased;
 }
 
@@ -665,12 +665,12 @@ a:hover {
 
 ::-webkit-selection {
   background-color: #331d00;
-  color: #DDDDDD;
+  color: #D5D8DA;
 }
 
 ::selection {
   background-color: #331d00;
-  color: #DDDDDD;
+  color: #D5D8DA;
 }
 
 /* Form */
@@ -678,13 +678,13 @@ a:hover {
 textarea::-webkit-selection,
 input::-webkit-selection {
   background-color: #9b9b9b;
-  color: #DDDDDD;
+  color: #D5D8DA;
 }
 
 textarea::selection,
 input::selection {
   background-color: #9b9b9b;
-  color: #DDDDDD;
+  color: #D5D8DA;
 }
 
 /*******************************
@@ -759,9 +759,9 @@ input::selection {
   --input-horizontal-padding: 1em;
   --input-padding: 0.78571429em 1em;
   /* Input Text Color */
-  --input-color: #DDDDDD;
-  --input-placeholder-color: #777777;
-  --input-placeholder-focus-color: #777777;
+  --input-color: #D5D8DA;
+  --input-placeholder-color: #6a7379;
+  --input-placeholder-focus-color: #6a7379;
   /* Line Height Default For Inputs in Browser */
   --input-line-height: 1.21428571em;
   /*-------------------
@@ -792,7 +792,7 @@ input::selection {
   --page-background: #1C1E26;
   --page-overflow-x: hidden;
   --line-height: 1.4285em;
-  --text-color: #DDDDDD;
+  --text-color: #D5D8DA;
   /*-------------------
         Paragraph
    --------------------*/
@@ -809,9 +809,9 @@ input::selection {
     Highlighted Text
    --------------------*/
   --highlight-background: #331d00;
-  --highlight-color: #DDDDDD;
+  --highlight-color: #D5D8DA;
   --input-highlight-background: #9b9b9b;
-  --input-highlight-color: #DDDDDD;
+  --input-highlight-color: #D5D8DA;
   /*-------------------
          Loader
    --------------------*/
@@ -1487,11 +1487,11 @@ input::selection {
   --sidebar-background: #1C1E26;
   --sidebar-menu-item-active-background: #2E303E;
   --sidebar-menu-section-color: rgba(213, 216, 218, 0.5);
-  --sidebar-menu-item-color: #DDDDDD;
+  --sidebar-menu-item-color: #D5D8DA;
   --sidebar-menu-action-color: rgba(213, 216, 218, 0.5);
   --sidebar-menu-action-hover-color: #2E303E;
   --sidebar-sync-status-view-background: #1C1E26;
-  --sidebar-sync-status-view-text-color: #DDDDDD;
+  --sidebar-sync-status-view-text-color: #D5D8DA;
   --sidebar-sync-status-view-detail-color: rgba(213, 216, 218, 0.5);
   --sidebar-scrollbar-width: 6px;
   --sidebar-scrollbar-track-background: #1C1E26;
@@ -1511,12 +1511,12 @@ input::selection {
   --note-list-bar-pinned-section-footer-border-bottom: 4px solid #1A1C23;
   --note-list-view-item-color: rgba(213, 216, 218, 0.65);
   --note-list-view-item-separator-border: 0;
-  --note-list-view-item-date-color: #2E303E;
-  --note-list-view-item-tag-color: #2E303E;
+  --note-list-view-item-date-color: rgba(213, 216, 218, 0.5);
+  --note-list-view-item-tag-color: rgba(213, 216, 218, 0.5);
   --note-list-view-item-active-background: #2E303E;
-  --note-list-view-item-active-color: #DDDDDD;
-  --note-list-view-item-active-date-color: #DDDDDD;
-  --note-list-view-item-active-tag-color: #DDDDDD;
+  --note-list-view-item-active-color: #D5D8DA;
+  --note-list-view-item-active-date-color: #D5D8DA;
+  --note-list-view-item-active-tag-color: #D5D8DA;
   --note-list-view-item-focus-inner-shadow: inset 0 0 4px rgba(0, 0, 0, 0.8);
   --note-search-bar-background: #1C1E26;
   --note-search-bar-border-bottom: 0;
@@ -7338,7 +7338,7 @@ i.flag.zimbabwe:before {
   font-weight: 600;
   line-height: 1.28571429em;
   text-transform: none;
-  color: #DDDDDD;
+  color: #D5D8DA;
 }
 
 .ui.header:first-child {
@@ -14602,7 +14602,7 @@ img.ui.bordered.image {
   font-weight: normal;
   font-style: normal;
   display: inline-flex;
-  color: #DDDDDD;
+  color: #D5D8DA;
 }
 
 .ui.input > input {
@@ -14617,7 +14617,7 @@ img.ui.bordered.image {
   padding: 0.67857143em 1em;
   background: #2E303E;
   border: 1px solid rgba(24, 26, 28, 0.45);
-  color: #DDDDDD;
+  color: #D5D8DA;
   border-radius: 0.28571429rem;
   transition: box-shadow 0.1s ease, border-color 0.1s ease;
   box-shadow: none;
@@ -14630,15 +14630,15 @@ img.ui.bordered.image {
 /* browsers require these rules separate */
 
 .ui.input > input::-webkit-input-placeholder {
-  color: #777777;
+  color: #6a7379;
 }
 
 .ui.input > input::-moz-placeholder {
-  color: #777777;
+  color: #6a7379;
 }
 
 .ui.input > input:-ms-input-placeholder {
-  color: #777777;
+  color: #6a7379;
 }
 
 /*******************************
@@ -14667,7 +14667,7 @@ img.ui.bordered.image {
 .ui.input.down input {
   border-color: rgba(0, 0, 0, 0.3);
   background: #FAFAFA;
-  color: #DDDDDD;
+  color: #D5D8DA;
   box-shadow: none;
 }
 
@@ -14718,17 +14718,17 @@ img.ui.bordered.image {
 
 .ui.input.focus > input::-webkit-input-placeholder,
 .ui.input > input:focus::-webkit-input-placeholder {
-  color: #777777;
+  color: #6a7379;
 }
 
 .ui.input.focus > input::-moz-placeholder,
 .ui.input > input:focus::-moz-placeholder {
-  color: #777777;
+  color: #6a7379;
 }
 
 .ui.input.focus > input:-ms-input-placeholder,
 .ui.input > input:focus:-ms-input-placeholder {
-  color: #777777;
+  color: #6a7379;
 }
 
 /*--------------------
@@ -16265,7 +16265,7 @@ a.ui.basic.black.label:hover {
 .ui.basic.label {
   background: none #2E3235;
   border: 1px solid rgba(24, 26, 28, 0.45);
-  color: #DDDDDD;
+  color: #D5D8DA;
   box-shadow: none;
 }
 
@@ -16713,7 +16713,7 @@ ol.ui.list ol li,
   margin: 0em;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
   font-weight: 600;
-  color: #DDDDDD;
+  color: #D5D8DA;
 }
 
 /* Description */
@@ -16901,7 +16901,7 @@ ol.ui.list ol li,
 
 .ui.list .list > a.item:hover .icon,
 .ui.list > a.item:hover .icon {
-  color: #DDDDDD;
+  color: #D5D8DA;
 }
 
 /*******************************
@@ -17156,7 +17156,7 @@ ul.ui.list li:before,
 ul.ui.list li:before,
 .ui.bulleted.list .list > a.item:before,
 .ui.bulleted.list > a.item:before {
-  color: #DDDDDD;
+  color: #D5D8DA;
 }
 
 ul.ui.list ul,
@@ -17183,7 +17183,7 @@ ul.ui.horizontal.bulleted.list li:first-child,
 
 ul.ui.horizontal.bulleted.list li::before,
 .ui.horizontal.bulleted.list > .item::before {
-  color: #DDDDDD;
+  color: #D5D8DA;
 }
 
 ul.ui.horizontal.bulleted.list li:first-child::before,
@@ -17223,7 +17223,7 @@ ol.ui.list li:before,
   counter-increment: ordered;
   content: counters(ordered, ".") " ";
   text-align: right;
-  color: #DDDDDD;
+  color: #D5D8DA;
   vertical-align: middle;
   opacity: 0.8;
 }
@@ -17757,7 +17757,7 @@ ol.ui.horizontal.list li:before,
 /* White Dimmer (Inverted) */
 
 .ui.inverted.dimmer .ui.loader {
-  color: #DDDDDD;
+  color: #D5D8DA;
 }
 
 .ui.inverted.dimmer .ui.loader:before {
@@ -19425,7 +19425,7 @@ ol.ui.horizontal.list li:before,
 /* Nested */
 
 .ui.inverted.segment .segment {
-  color: #DDDDDD;
+  color: #D5D8DA;
 }
 
 .ui.inverted.segment .inverted.segment {
@@ -19621,7 +19621,7 @@ ol.ui.horizontal.list li:before,
   margin: 0em 0em;
   padding: 1.14285714em 2em;
   background: #2E3235;
-  color: #DDDDDD;
+  color: #D5D8DA;
   box-shadow: none;
   border-radius: 0em;
   border: none;
@@ -19694,7 +19694,7 @@ ol.ui.horizontal.list li:before,
 .ui.steps .step .description {
   font-weight: normal;
   font-size: 0.92857143em;
-  color: #DDDDDD;
+  color: #D5D8DA;
 }
 
 .ui.steps .step > .description {
@@ -19946,7 +19946,7 @@ ol.ui.horizontal.list li:before,
 .ui.steps a.active.step:hover {
   cursor: pointer;
   background: #DCDDDE;
-  color: #DDDDDD;
+  color: #D5D8DA;
 }
 
 /* Completed */
@@ -20384,7 +20384,7 @@ ol.ui.horizontal.list li:before,
 .ui.form .field > label {
   display: block;
   margin: 0em 0em 0.28571429rem 0em;
-  color: #DDDDDD;
+  color: #D5D8DA;
   font-size: 0.92857143em;
   font-weight: 600;
   text-transform: none;
@@ -20440,7 +20440,7 @@ ol.ui.horizontal.list li:before,
   font-size: 1em;
   background: #2E303E;
   border: 1px solid rgba(24, 26, 28, 0.45);
-  color: #DDDDDD;
+  color: #D5D8DA;
   border-radius: 0.28571429rem;
   box-shadow: 0em 0em 0em 0em transparent inset;
   transition: color 0.1s ease, border-color 0.1s ease;
@@ -20456,7 +20456,7 @@ ol.ui.horizontal.list li:before,
   background: #2E303E;
   border: 1px solid rgba(24, 26, 28, 0.45);
   outline: none;
-  color: #DDDDDD;
+  color: #D5D8DA;
   border-radius: 0.28571429rem;
   box-shadow: 0em 0em 0em 0em transparent inset;
   transition: color 0.1s ease, border-color 0.1s ease;
@@ -20497,7 +20497,7 @@ ol.ui.horizontal.list li:before,
   border-radius: 0.28571429rem;
   box-shadow: 0em 0em 0em 0em transparent inset;
   padding: 0.62em 1em;
-  color: #DDDDDD;
+  color: #D5D8DA;
   transition: color 0.1s ease, border-color 0.1s ease;
 }
 
@@ -20646,27 +20646,27 @@ ol.ui.horizontal.list li:before,
 /* browsers require these rules separate */
 
 .ui.form ::-webkit-input-placeholder {
-  color: #777777;
+  color: #6a7379;
 }
 
 .ui.form :-ms-input-placeholder {
-  color: #777777 !important;
+  color: #6a7379 !important;
 }
 
 .ui.form ::-moz-placeholder {
-  color: #777777;
+  color: #6a7379;
 }
 
 .ui.form :focus::-webkit-input-placeholder {
-  color: #777777;
+  color: #6a7379;
 }
 
 .ui.form :focus:-ms-input-placeholder {
-  color: #777777 !important;
+  color: #6a7379 !important;
 }
 
 .ui.form :focus::-moz-placeholder {
-  color: #777777;
+  color: #6a7379;
 }
 
 /* Error Placeholder */
@@ -21079,7 +21079,7 @@ ol.ui.horizontal.list li:before,
 .ui.inverted.form input[type="url"] {
   background: #2E303E;
   border-color: rgba(0, 0, 0, 0.1);
-  color: #DDDDDD;
+  color: #D5D8DA;
   box-shadow: none;
 }
 
@@ -21100,7 +21100,7 @@ ol.ui.horizontal.list li:before,
 
 .ui.form .grouped.fields > label {
   margin: 0em 0em 0.28571429rem 0em;
-  color: #DDDDDD;
+  color: #D5D8DA;
   font-size: 0.92857143em;
   font-weight: 600;
   text-transform: none;
@@ -21359,7 +21359,7 @@ ol.ui.horizontal.list li:before,
   vertical-align: baseline;
   font-size: 0.92857143em;
   font-weight: 600;
-  color: #DDDDDD;
+  color: #D5D8DA;
   text-transform: none;
 }
 
@@ -23726,7 +23726,7 @@ ol.ui.horizontal.list li:before,
   background: none;
   padding: 0.92857143em 1.14285714em;
   text-transform: none;
-  color: #DDDDDD;
+  color: #D5D8DA;
   font-weight: normal;
   transition: background 0.1s ease, box-shadow 0.1s ease, color 0.1s ease;
 }
@@ -23869,7 +23869,7 @@ ol.ui.horizontal.list li:before,
   font-size: 1em !important;
   padding: 0.78571429em 1.14285714em !important;
   background: transparent !important;
-  color: #DDDDDD !important;
+  color: #D5D8DA !important;
   text-transform: none !important;
   font-weight: normal !important;
   box-shadow: none !important;
@@ -24285,7 +24285,7 @@ Floated Menu / Item
   border-right: 1px solid transparent;
   border-top: 2px solid transparent;
   padding: 0.92857143em 1.42857143em;
-  color: #DDDDDD;
+  color: #D5D8DA;
 }
 
 .ui.tabular.menu .item:before {
@@ -24643,7 +24643,7 @@ Floated Menu / Item
 .ui.secondary.pointing.menu .link.item:hover,
 .ui.secondary.pointing.menu a.item:hover {
   background-color: transparent;
-  color: #DDDDDD;
+  color: #D5D8DA;
 }
 
 /* Pressed */
@@ -25875,7 +25875,7 @@ Floated Menu / Item
   background: #4B5257;
   padding: 1em 1.5em;
   line-height: 1.4285em;
-  color: #DDDDDD;
+  color: #D5D8DA;
   transition: opacity 0.1s ease, color 0.1s ease, background 0.1s ease, box-shadow 0.1s ease;
   border-radius: 0.28571429rem;
   box-shadow: 0px 0px 0px 1px rgba(24, 26, 28, 0.22) inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
@@ -26411,7 +26411,7 @@ Floated Menu / Item
   box-shadow: none;
   border-radius: 0.28571429rem;
   text-align: left;
-  color: #DDDDDD;
+  color: #D5D8DA;
   border-collapse: separate;
   border-spacing: 0px;
 }
@@ -26445,7 +26445,7 @@ Floated Menu / Item
   cursor: auto;
   background: #34393D;
   text-align: inherit;
-  color: #DDDDDD;
+  color: #D5D8DA;
   padding: 0.92857143em 0.78571429em;
   vertical-align: inherit;
   font-style: none;
@@ -26482,7 +26482,7 @@ Floated Menu / Item
   border-top: 1px solid rgba(24, 26, 28, 0.45);
   background: #34393D;
   text-align: inherit;
-  color: #DDDDDD;
+  color: #D5D8DA;
   padding: 0.78571429em 0.78571429em;
   vertical-align: middle;
   font-style: normal;
@@ -26781,13 +26781,13 @@ Floated Menu / Item
 
 .ui.table tr.active,
 .ui.table td.active {
-  box-shadow: 0px 0px 0px #DDDDDD inset;
+  box-shadow: 0px 0px 0px #D5D8DA inset;
 }
 
 .ui.table tr.active,
 .ui.table td.active {
   background: #E0E0E0 !important;
-  color: #DDDDDD !important;
+  color: #D5D8DA !important;
 }
 
 /*--------------
@@ -26963,7 +26963,7 @@ Floated Menu / Item
 .ui.table tr td.selectable.active:hover,
 .ui.selectable.table tr:hover td.active {
   background: #E0E0E0 !important;
-  color: #DDDDDD !important;
+  color: #D5D8DA !important;
 }
 
 .ui.selectable.table tr.positive:hover,
@@ -27376,7 +27376,7 @@ Floated Menu / Item
   cursor: pointer;
   white-space: nowrap;
   border-left: 1px solid rgba(24, 26, 28, 0.45);
-  color: #DDDDDD;
+  color: #D5D8DA;
 }
 
 .ui.sortable.table thead th:first-child {
@@ -28264,7 +28264,7 @@ Floated Menu / Item
 
 .ui.cards > .card .meta > a:not(.ui):hover,
 .ui.card .meta > a:not(.ui):hover {
-  color: #DDDDDD;
+  color: #D5D8DA;
 }
 
 /*--------------
@@ -29098,7 +29098,7 @@ a.ui.card:hover,
 
 .ui.comments .comment .author {
   font-size: 1em;
-  color: #DDDDDD;
+  color: #D5D8DA;
   font-weight: 600;
 }
 
@@ -29138,7 +29138,7 @@ a.ui.card:hover,
   margin: 0.25em 0em 0.5em;
   font-size: 1em;
   word-wrap: break-word;
-  color: #DDDDDD;
+  color: #D5D8DA;
   line-height: 1.3;
 }
 
@@ -29397,7 +29397,7 @@ a.ui.card:hover,
   margin: 0em;
   font-size: 1em;
   font-weight: 600;
-  color: #DDDDDD;
+  color: #D5D8DA;
 }
 
 /* Summary Image */
@@ -29454,7 +29454,7 @@ a.ui.card:hover,
   margin: 0.5em 0em 0em;
   background: none;
   padding: 0em;
-  color: #DDDDDD;
+  color: #D5D8DA;
 }
 
 /* Images */
@@ -29753,7 +29753,7 @@ a.ui.card:hover,
   max-width: auto;
   font-size: 1em;
   line-height: 1.4285em;
-  color: #DDDDDD;
+  color: #D5D8DA;
 }
 
 /*--------------
@@ -29824,7 +29824,7 @@ a.ui.card:hover,
 }
 
 .ui.items > .item .meta > a:not(.ui):hover {
-  color: #DDDDDD;
+  color: #D5D8DA;
 }
 
 /*--------------
@@ -30167,7 +30167,7 @@ a.ui.card:hover,
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
   font-size: 1em;
   font-weight: 600;
-  color: #DDDDDD;
+  color: #D5D8DA;
   text-transform: uppercase;
   text-align: center;
 }
@@ -30701,7 +30701,7 @@ a.ui.card:hover,
   padding: 0.5em 0em;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
   font-size: 1em;
-  color: #DDDDDD;
+  color: #D5D8DA;
 }
 
 /* Content */
@@ -30831,13 +30831,13 @@ a.ui.card:hover,
 .ui.styled.accordion .accordion .title:hover,
 .ui.styled.accordion .accordion .active.title {
   background: transparent;
-  color: #DDDDDD;
+  color: #D5D8DA;
 }
 
 .ui.styled.accordion .accordion .title:hover,
 .ui.styled.accordion .accordion .active.title {
   background: transparent;
-  color: #DDDDDD;
+  color: #D5D8DA;
 }
 
 /* Active */
@@ -31005,7 +31005,7 @@ a.ui.card:hover,
   height: 17px;
   text-align: center;
   opacity: 0;
-  color: #DDDDDD;
+  color: #D5D8DA;
   transition: border 0.1s ease, opacity 0.1s ease, transform 0.1s ease, box-shadow 0.1s ease;
 }
 
@@ -31017,7 +31017,7 @@ a.ui.card:hover,
 
 .ui.checkbox label,
 .ui.checkbox + label {
-  color: #DDDDDD;
+  color: #D5D8DA;
   transition: color 0.1s ease;
 }
 
@@ -31226,7 +31226,7 @@ a.ui.card:hover,
   height: 15px;
   border-radius: 500rem;
   transform: scale(0.46666667);
-  background-color: #DDDDDD;
+  background-color: #D5D8DA;
 }
 
 /* Focus */
@@ -31405,7 +31405,7 @@ a.ui.card:hover,
 .ui.toggle.checkbox label {
   min-height: 1.5rem;
   padding-left: 4.5rem;
-  color: #DDDDDD;
+  color: #D5D8DA;
 }
 
 .ui.toggle.checkbox label {
@@ -31892,7 +31892,7 @@ body.dimmable > .dimmer {
   text-align: left;
   border-top: none;
   line-height: 1em;
-  color: #DDDDDD;
+  color: #D5D8DA;
   padding: 0.78571429rem 1.14285714rem !important;
   font-size: 1rem;
   text-transform: none;
@@ -32143,7 +32143,7 @@ body.dimmable > .dimmer {
   background: #2E303E;
   display: inline-block;
   padding: 0.78571429em 2.1em 0.78571429em 1em;
-  color: #DDDDDD;
+  color: #D5D8DA;
   box-shadow: none;
   border: 1px solid rgba(24, 26, 28, 0.45);
   border-radius: 0.28571429rem;
@@ -32407,7 +32407,7 @@ select.ui.dropdown {
 }
 
 .ui.active.search.dropdown input.search:focus + .text {
-  color: #777777 !important;
+  color: #6a7379 !important;
 }
 
 /* Search Menu */
@@ -32652,12 +32652,12 @@ select.ui.dropdown {
 
 .ui.dropdown:not(.button) > .default.text,
 .ui.default.dropdown:not(.button) > .text {
-  color: #777777;
+  color: #6a7379;
 }
 
 .ui.dropdown:not(.button) > input:focus ~ .default.text,
 .ui.default.dropdown:not(.button) > input:focus ~ .text {
-  color: #777777;
+  color: #6a7379;
 }
 
 /*--------------------
@@ -33750,7 +33750,7 @@ select.ui.dropdown {
   .ui.modal > .close {
     top: 1.0535rem;
     right: 1rem;
-    color: #DDDDDD;
+    color: #D5D8DA;
   }
 }
 
@@ -33830,7 +33830,7 @@ select.ui.dropdown {
   border: none;
   border-radius: 0em;
   box-shadow: none !important;
-  color: #DDDDDD;
+  color: #D5D8DA;
 }
 
 .ui.basic.modal > .header,
@@ -33840,7 +33840,7 @@ select.ui.dropdown {
 }
 
 .ui.basic.modal > .header {
-  color: #DDDDDD;
+  color: #D5D8DA;
 }
 
 .ui.basic.modal > .close {
@@ -33849,7 +33849,7 @@ select.ui.dropdown {
 }
 
 .ui.inverted.dimmer > .basic.modal {
-  color: #DDDDDD;
+  color: #D5D8DA;
 }
 
 .ui.inverted.dimmer > .ui.basic.modal > .header {
@@ -33992,7 +33992,7 @@ select.ui.dropdown {
 .ui.fullscreen.modal > .close {
   top: 1.0535rem;
   right: 1rem;
-  color: #DDDDDD;
+  color: #D5D8DA;
 }
 
 /*--------------
@@ -34209,7 +34209,7 @@ select.ui.dropdown {
   box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
   font-size: 1rem;
   text-align: center;
-  color: #DDDDDD;
+  color: #D5D8DA;
   border-radius: 0em 0em 0.28571429rem 0.28571429rem;
   transition: 0.2s background ease;
 }
@@ -34352,7 +34352,7 @@ a.ui.nag {
   padding: 0.833em 1em;
   font-weight: normal;
   font-style: normal;
-  color: #DDDDDD;
+  color: #D5D8DA;
   border-radius: 0.28571429rem;
   box-shadow: 0px 2px 4px 0px rgba(34, 36, 38, 0.12), 0px 2px 10px 0px rgba(34, 36, 38, 0.15);
 }
@@ -34426,7 +34426,7 @@ a.ui.nag {
   padding: 0.833em 1em;
   font-weight: normal;
   font-style: normal;
-  color: #DDDDDD;
+  color: #D5D8DA;
   border-radius: 0.28571429rem;
   box-shadow: 0px 2px 4px 0px rgba(34, 36, 38, 0.12), 0px 2px 10px 0px rgba(34, 36, 38, 0.15);
   z-index: 1;
@@ -35176,7 +35176,7 @@ a.ui.nag {
   right: auto;
   left: 0%;
   bottom: auto;
-  color: #DDDDDD;
+  color: #D5D8DA;
   font-weight: 600;
   text-shadow: none;
   margin-top: 0.2em;
@@ -35222,30 +35222,30 @@ a.ui.nag {
 
 .ui.indicating.progress[data-percent^="1"] .label,
 .ui.indicating.progress[data-percent^="2"] .label {
-  color: #DDDDDD;
+  color: #D5D8DA;
 }
 
 .ui.indicating.progress[data-percent^="3"] .label {
-  color: #DDDDDD;
+  color: #D5D8DA;
 }
 
 .ui.indicating.progress[data-percent^="4"] .label,
 .ui.indicating.progress[data-percent^="5"] .label {
-  color: #DDDDDD;
+  color: #D5D8DA;
 }
 
 .ui.indicating.progress[data-percent^="6"] .label {
-  color: #DDDDDD;
+  color: #D5D8DA;
 }
 
 .ui.indicating.progress[data-percent^="7"] .label,
 .ui.indicating.progress[data-percent^="8"] .label {
-  color: #DDDDDD;
+  color: #D5D8DA;
 }
 
 .ui.indicating.progress[data-percent^="9"] .label,
 .ui.indicating.progress[data-percent^="100"] .label {
-  color: #DDDDDD;
+  color: #D5D8DA;
 }
 
 /* Single Digits */
@@ -35271,7 +35271,7 @@ a.ui.nag {
 .ui.indicating.progress[data-percent="7"] .label,
 .ui.indicating.progress[data-percent="8"] .label,
 .ui.indicating.progress[data-percent="9"] .label {
-  color: #DDDDDD;
+  color: #D5D8DA;
 }
 
 /* Indicating Success */
@@ -35725,7 +35725,7 @@ a.ui.nag {
 .ui.rating .icon.selected,
 .ui.rating .icon.selected.active {
   background: transparent;
-  color: #DDDDDD;
+  color: #D5D8DA;
 }
 
 /*-------------------
@@ -35961,7 +35961,7 @@ a.ui.nag {
   font-size: 1em;
   background: #2E303E;
   border: 1px solid rgba(24, 26, 28, 0.45);
-  color: #DDDDDD;
+  color: #D5D8DA;
   box-shadow: 0em 0em 0em 0em transparent inset;
   transition: background-color 0.1s ease, color 0.1s ease, box-shadow 0.1s ease, border-color 0.1s ease;
 }
@@ -36018,7 +36018,7 @@ a.ui.nag {
   overflow: hidden;
   font-size: 1em;
   padding: 0.85714286em 1.14285714em;
-  color: #DDDDDD;
+  color: #D5D8DA;
   line-height: 1.33;
   border-bottom: 1px solid rgba(24, 26, 28, 0.1);
 }
@@ -36083,13 +36083,13 @@ a.ui.nag {
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
   font-size: 1rem;
   font-weight: 600;
-  color: #DDDDDD;
+  color: #D5D8DA;
 }
 
 .ui.search > .results > .message .description {
   margin-top: 0.25rem;
   font-size: 1em;
-  color: #DDDDDD;
+  color: #D5D8DA;
 }
 
 /* View All Results */
@@ -36099,7 +36099,7 @@ a.ui.nag {
   border-top: none;
   background: #4B5257;
   padding: 0.92857143em 1em;
-  color: #DDDDDD;
+  color: #D5D8DA;
   font-weight: 600;
   text-align: center;
 }
@@ -36173,7 +36173,7 @@ a.ui.nag {
 }
 
 .ui.category.search > .results .category.active > .name {
-  color: #DDDDDD;
+  color: #D5D8DA;
 }
 
 .ui.search > .results .result.active,
@@ -36438,7 +36438,7 @@ a.ui.nag {
   height: 15em;
   padding: 2em;
   background-color: #E6E6E6;
-  color: #DDDDDD;
+  color: #D5D8DA;
   box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.3);
 }
 
