@@ -22,3 +22,22 @@
 @horizonLightText         : #D5D8DA;
 @horizonDarkText          : #06060C;
 
+/*---------------------------------------
+  themes/default/globals/site.variables
+----------------------------------------*/
+@pageBackground: @horizonBackground;
+
+
+/*---------------------------------------
+        site/globals/site.variables
+----------------------------------------*/
+@primaryColor: @horizonAccent;
+@primaryColorFocus: @horizonAccent;
+
+@sidebarMenuItemActiveBackground: @horizonAccent;
+@sidebarSyncStatusViewBackground: @horizonBackgroundAlt;
+@sidebarScrollbarTrackBackground: @horizonBackground;
+@sidebarScrollbarThumbBackground: @horizonAccentAlt;
+
+@scrollbarTrackBackground: @sidebarScrollbarTrackBackground;
+@scrollbarThumbBackground: @sidebarScrollbarThumbBackground;
