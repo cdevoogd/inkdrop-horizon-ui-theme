@@ -7,8 +7,8 @@
 @importGoogleFonts : false;
 @useCustomScrollbars: false;
 
-@primaryColor: #C06D36;
-@primaryColorFocus: #C06D36;
+@primaryColor: @horizonSecondaryAccent;
+@primaryColorFocus: @horizonSecondaryAccent;
 @linkHoverColor: @primaryColor;
 
 

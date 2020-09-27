@@ -93,10 +93,10 @@
 --------------------*/
 
 /* Used on inputs, textarea etc */
-@focusedFormBorderColor: #85B7D9;
+@focusedFormBorderColor: fade(@horizonSecondaryAccent, 60%);
 
 /* Used on dropdowns, other larger blocks */
-@focusedFormMutedBorderColor: #96C8DA;
+@focusedFormMutedBorderColor: fade(@horizonSecondaryAccent, 60%);
 
 /*-------------------
         Sizes
@@ -269,7 +269,7 @@
 
 /*---   Neutrals  ---*/
 @fullBlack        : #FFFFFF;
-@offWhite         : #34393D;
+@offWhite         : @horizonAccent;
 @darkWhite        : #4B5257;
 @midWhite         : #666E74;
 @white            : #2E3235;

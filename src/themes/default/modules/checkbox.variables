@@ -11,7 +11,7 @@
 @labelDistance: 1.85714em; /* 26px @ 14/em */
 
 /* Checkbox */
-@checkboxBackground: rgba(0, 0, 0, 0.2);
+@checkboxBackground: @horizonShadow;
 @checkboxBorder: 1px solid @solidBorderColor;
 @checkboxBorderRadius: @3px;
 @checkboxTransition:
