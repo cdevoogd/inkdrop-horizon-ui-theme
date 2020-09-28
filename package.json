@@ -1,28 +1,28 @@
 {
   "name": "horizon-dark-ui",
-  "version": "1.0.0",
-  "theme": "ui",
   "description": "Preview theme for the Inkdrop note-taking app. Based on Horizon for Visual Studio Code.",
-  "styleSheets": [
-    "theme.min.css"
-  ],
+  "author": "cdevoogd",
+  "repository": "https://github.com/cdevoogd/inkdrop-horizon-ui-theme",
+  "license": "MIT",
+  "theme": "ui",
+  "version": "0.0.0",
   "scripts": {
     "run": "gulp",
     "build": "gulp build"
   },
-  "keywords": [
-    "inkdrop",
-    "markdown"
+  "styleSheets": [
+    "theme.min.css"
   ],
-  "author": "cdevoogd",
-  "license": "MIT",
+  "engines": {
+    "inkdrop": "^5.x"
+  },
   "devDependencies": {
     "semantic-ui": "^2.4.2"
   },
   "browserslist": [
     "Electron 7.3.2"
   ],
-  "engines": {
-    "inkdrop": "^5.x"
-  }
+  "keywords": [
+    "inkdrop"
+  ]
 }
