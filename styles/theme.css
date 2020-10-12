@@ -31068,7 +31068,7 @@ a.ui.card:hover,
 
 .ui.checkbox .box:active::before,
 .ui.checkbox label:active::before {
-  background: #2E303E;
+  background: #16161C;
   border-color: rgba(24, 26, 28, 0.35);
 }
 
@@ -31087,7 +31087,7 @@ a.ui.card:hover,
 
 .ui.checkbox input:focus ~ .box:before,
 .ui.checkbox input:focus ~ label:before {
-  background: #2E3235;
+  background: #16161C;
   border-color: rgba(233, 67, 111, 0.6);
 }
 
@@ -31106,7 +31106,7 @@ a.ui.card:hover,
 
 .ui.checkbox input:checked ~ .box:before,
 .ui.checkbox input:checked ~ label:before {
-  background: rgba(0, 0, 0, 0.2);
+  background: #16161C;
   border-color: rgba(24, 26, 28, 0.35);
 }
 
@@ -31122,7 +31122,7 @@ a.ui.card:hover,
 
 .ui.checkbox input:not([type=radio]):indeterminate ~ .box:before,
 .ui.checkbox input:not([type=radio]):indeterminate ~ label:before {
-  background: rgba(0, 0, 0, 0.2);
+  background: #16161C;
   border-color: rgba(24, 26, 28, 0.35);
 }
 
@@ -31140,7 +31140,7 @@ a.ui.card:hover,
 .ui.checkbox input:not([type=radio]):indeterminate:focus ~ label:before,
 .ui.checkbox input:checked:focus ~ .box:before,
 .ui.checkbox input:checked:focus ~ label:before {
-  background: #2E3235;
+  background: #16161C;
   border-color: rgba(233, 67, 111, 0.6);
 }
 
@@ -31249,7 +31249,7 @@ a.ui.card:hover,
 
 .ui.radio.checkbox input:focus ~ .box:before,
 .ui.radio.checkbox input:focus ~ label:before {
-  background-color: #2E3235;
+  background-color: #16161C;
 }
 
 .ui.radio.checkbox input:focus ~ .box:after,
@@ -31268,7 +31268,7 @@ a.ui.card:hover,
 
 .ui.radio.checkbox input:checked ~ .box:before,
 .ui.radio.checkbox input:checked ~ label:before {
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: #16161C;
 }
 
 .ui.radio.checkbox input:checked ~ .box:after,
@@ -31280,7 +31280,7 @@ a.ui.card:hover,
 
 .ui.radio.checkbox input:focus:checked ~ .box:before,
 .ui.radio.checkbox input:focus:checked ~ label:before {
-  background-color: #2E3235;
+  background-color: #16161C;
 }
 
 .ui.radio.checkbox input:focus:checked ~ .box:after,

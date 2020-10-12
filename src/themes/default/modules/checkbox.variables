@@ -37,31 +37,31 @@
 --------------------*/
 
 /* Hover */
-@checkboxHoverBackground: @checkboxBackground;
+@checkboxHoverBackground: @horizonShadow;
 @checkboxHoverBorderColor: @selectedBorderColor;
 @labelHoverColor: @hoveredTextColor;
 
 /* Pressed */
-@checkboxPressedBackground: @offWhite;
+@checkboxPressedBackground: @horizonShadow;
 @checkboxPressedBorderColor: @selectedBorderColor;
 @checkboxPressedColor: @selectedTextColor;
 @labelPressedColor: @selectedTextColor;
 
 /* Focus */
-@checkboxFocusBackground: @white;
+@checkboxFocusBackground: @horizonShadow;
 @checkboxFocusBorderColor: @focusedFormMutedBorderColor;
 @checkboxFocusCheckColor: @selectedTextColor;
 @labelFocusColor: @selectedTextColor;
 
 /* Active */
 @labelActiveColor: @selectedTextColor;
-@checkboxActiveBackground: rgba(0, 0, 0, 0.2);
+@checkboxActiveBackground: @horizonShadow;
 @checkboxActiveBorderColor: @selectedBorderColor;
 @checkboxActiveCheckColor: @selectedTextColor;
 @checkboxActiveCheckOpacity: 1;
 
 /* Active Focus */
-@checkboxActiveFocusBackground: @white;
+@checkboxActiveFocusBackground: @horizonShadow;
 @checkboxActiveFocusBorderColor: @checkboxFocusBorderColor;
 @checkboxActiveFocusCheckColor: @selectedTextColor;
 
